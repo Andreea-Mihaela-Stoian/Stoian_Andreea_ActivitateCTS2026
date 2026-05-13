@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ActivitateCTS.iml" filepath="$PROJECT_DIR$/ActivitateCTS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Adapter1/Adapter1.iml" filepath="$PROJECT_DIR$/Adapter1/Adapter1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Adapter2/Adapter2.iml" filepath="$PROJECT_DIR$/Adapter2/Adapter2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Builder1/Builder1.iml" filepath="$PROJECT_DIR$/Builder1/Builder1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory1/Factory1.iml" filepath="$PROJECT_DIR$/Factory1/Factory1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer1/Observer1.iml" filepath="$PROJECT_DIR$/Observer1/Observer1.iml" />
