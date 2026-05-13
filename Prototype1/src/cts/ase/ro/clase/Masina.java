@@ -7,7 +7,7 @@ public class Masina implements InterfataPrototype {
     private float capacitateMotor;
     private int pret;
 
-// constructor cu validari
+    // constructor cu validari
     public Masina(String brand, String model, String culoare, float capacitateMotor, int pret) {
         if (brand.length() > 2) {
             this.brand = brand;
@@ -19,6 +19,12 @@ public class Masina implements InterfataPrototype {
             this.model = model;
         } else {
             this.model = "Standard";
+        }
+
+        if (culoare != null && !culoare.isEmpty()) {
+            this.culoare = culoare;
+        } else {
+            this.culoare = "necunoscuta";
         }
 
         if (capacitateMotor >= 0.8 && capacitateMotor <= 6.0) {
@@ -33,10 +39,10 @@ public class Masina implements InterfataPrototype {
             this.pret = 0;
         }
     }
-// constructor gol -> să nu poată fi creat obiectul direct fără date valide
+    // constructor gol -> nu lasa obiectul sa se creeze direct fara date valide
     private Masina() {}
 
-   // generate -> setter
+    // generate -> setter
     public void setPret(int pret) {
         this.pret = pret;
     }
@@ -54,8 +60,15 @@ public class Masina implements InterfataPrototype {
         return sb.toString();
     }
 
+    // scriem metoda copy
     @Override
     public InterfataPrototype copy() {
-        return null;
+        Masina masina = new Masina();
+        masina.brand=this.brand;
+        masina.model=this.model;
+        masina.capacitateMotor=this.capacitateMotor;
+        masina.culoare=this.culoare;
+        masina.pret=this.pret;
+        return masina;
     }
 }
