@@ -15,7 +15,7 @@ public class Main {
         RezervareAbstract builder = new RezervareBuilder();
         Rezervare rezervare2 = builder.setNume("Mihaela").build();
         Rezervare rezervare3 = new RezervareBuilder().setNume("Ion").build();
-//comment
+
         System.out.println(rezervare2);
         System.out.println(rezervare3);
     }
