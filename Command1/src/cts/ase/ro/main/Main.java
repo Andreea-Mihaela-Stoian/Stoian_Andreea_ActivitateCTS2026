@@ -5,18 +5,33 @@ import cts.ase.ro.design.*;
 public class Main {
     public static void main(String[] args) {
 
-        // receiver-ul pe care se executa actiunile
-        MisiuneJoc misiune = new MisiunePrincipala(101);
+        // receiver 1 - misiune principala
+        MisiuneJoc misiune1 = new MisiunePrincipala(101);
 
-        // invoker-ul care executa comenzile
+        // invoker
         Operator operator = new Operator();
 
-        // comenzi concrete
-        Command pornire = new ComandaPornire(misiune);
-        Command abandonare = new ComandaAbandonare(misiune);
+        // comenzi misiune principala
+        Command pornire1 = new ComandaPornire(misiune1);
 
-        // apel comenzi prin operator
-        operator.invoca(pornire);
-        operator.invoca(abandonare);
+        Command abandonare1 = new ComandaAbandonare(misiune1);
+
+        // apel comenzi principala
+        operator.invoca(pornire1);
+        operator.invoca(abandonare1);
+
+        System.out.println("----------------");
+
+        // receiver 2 - misiune secundara
+        MisiuneJoc misiune2 = new MisiuneSecundara(202);
+
+        // comenzi misiune secundara
+        Command pornire2 = new ComandaPornire(misiune2);
+
+        Command abandonare2 = new ComandaAbandonare(misiune2);
+
+        // apel comenzi secundara
+        operator.invoca(pornire2);
+        operator.invoca(abandonare2);
     }
 }
