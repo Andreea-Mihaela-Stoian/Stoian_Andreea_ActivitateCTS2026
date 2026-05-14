@@ -2,6 +2,8 @@ package cts.ase.ro.design;
 
 public class Aplicatie {
     private String numeUser;
+
+    //strategia curenta
     private StrategieNotificare strategieNotificare;
 
     //generate constructor
