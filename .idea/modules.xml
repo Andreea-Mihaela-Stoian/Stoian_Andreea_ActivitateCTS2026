@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/Facade5/Facade5.iml" filepath="$PROJECT_DIR$/Facade5/Facade5.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory1/Factory1.iml" filepath="$PROJECT_DIR$/Factory1/Factory1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Flyweight1/Flyweight1.iml" filepath="$PROJECT_DIR$/Flyweight1/Flyweight1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Flyweight2/Flyweight2.iml" filepath="$PROJECT_DIR$/Flyweight2/Flyweight2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer1/Observer1.iml" filepath="$PROJECT_DIR$/Observer1/Observer1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer2/Observer2.iml" filepath="$PROJECT_DIR$/Observer2/Observer2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Prototype1/Prototype1.iml" filepath="$PROJECT_DIR$/Prototype1/Prototype1.iml" />

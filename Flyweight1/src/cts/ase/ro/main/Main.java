@@ -7,7 +7,7 @@ import cts.ase.ro.design.PersonajJoc;
 public class Main {
     public static void main(String[] args) {
 
-        // state extrinsec
+        // optiuni diferite pentru fiecare masina
         OptiuniGrafice opt1 = new OptiuniGrafice(true, false, true, 70);
 
         OptiuniGrafice opt2 = new OptiuniGrafice(false, true, true, 100);
