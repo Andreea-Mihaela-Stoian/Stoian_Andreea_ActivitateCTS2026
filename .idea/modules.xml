@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/Adapter2/Adapter2.iml" filepath="$PROJECT_DIR$/Adapter2/Adapter2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Adapter3/Adapter3.iml" filepath="$PROJECT_DIR$/Adapter3/Adapter3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Builder1/Builder1.iml" filepath="$PROJECT_DIR$/Builder1/Builder1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChainOfResponsability1/ChainOfResponsability1.iml" filepath="$PROJECT_DIR$/ChainOfResponsability1/ChainOfResponsability1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Command1/Command1.iml" filepath="$PROJECT_DIR$/Command1/Command1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Command2/Command2.iml" filepath="$PROJECT_DIR$/Command2/Command2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Composite1/Composite1.iml" filepath="$PROJECT_DIR$/Composite1/Composite1.iml" />
