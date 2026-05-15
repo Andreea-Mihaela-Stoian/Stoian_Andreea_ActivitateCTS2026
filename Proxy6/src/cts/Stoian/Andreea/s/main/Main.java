@@ -26,3 +26,13 @@ public class Main {
         proxySpital.permiteAccess();
     }
 }
+/*
+Am ales design pattern-ul Proxy deoarece cerinta presupune existenta
+unui modul intermediar care controleaza accesul vizitatorilor in spital.
+
+Vizitatorii nu intra direct in salon, ci trec prin ProxySpital,
+care verifica respectarea conditiilor:
+- existenta scrisorii de acceptare
+- echiparea cu haine de protectie
+- existenta unui grup minim de 3 vizitatori
+*/

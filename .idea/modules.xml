@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/Composite1/Composite1.iml" filepath="$PROJECT_DIR$/Composite1/Composite1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Composite2/Composite2.iml" filepath="$PROJECT_DIR$/Composite2/Composite2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Composite3/Composite3.iml" filepath="$PROJECT_DIR$/Composite3/Composite3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Composite4/Composite4.iml" filepath="$PROJECT_DIR$/Composite4/Composite4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Decorator1/Decorator1.iml" filepath="$PROJECT_DIR$/Decorator1/Decorator1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Decorator2/Decorator2.iml" filepath="$PROJECT_DIR$/Decorator2/Decorator2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Facade1/Facade1.iml" filepath="$PROJECT_DIR$/Facade1/Facade1.iml" />
